@@ -7,7 +7,7 @@ from PIL.ExifTags import TAGS
 import pytesseract
 
 # Configure the API key
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyBwram1ejmI0wYme63-XauP-PDXsLN1UDs'
+os.environ['GOOGLE_API_KEY'] = 'API_KEY'
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 def load_image_from_file(uploaded_file):
