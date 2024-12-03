@@ -1,0 +1,7 @@
+pip install google-generativeai
+pip install pytesseract
+pip install pillow
+
+add tesseract by downloading in web and add the path to your system through environment variable.
+refer webpage of tesseract for the whole explanation to download
+
